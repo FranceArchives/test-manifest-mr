@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 25,
+    "height" : 17
+  }, {
+    "width" : 50,
+    "height" : 33
+  }, {
+    "width" : 99,
+    "height" : 66
+  }, {
+    "width" : 197,
+    "height" : 131
+  }, {
+    "width" : 394,
+    "height" : 261
+  }, {
+    "width" : 788,
+    "height" : 522
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 788,
+  "@id" : "https://FranceArchives.github.io/test-manifest-mr/images/caravelle",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 522
+}
