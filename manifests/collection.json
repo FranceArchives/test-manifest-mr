@@ -1,0 +1,13 @@
+{
+  "id" : "https://FranceArchives.github.io/test-manifest-mr/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in FranceArchives/test-manifest-mr project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://FranceArchives.github.io/test-manifest-mr/manifests/manifest.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
