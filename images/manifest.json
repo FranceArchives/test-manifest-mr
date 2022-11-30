@@ -1,0 +1,66 @@
+{
+  "id" : "https://FranceArchives.github.io/test-manifest-mr/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in FranceArchives/test-manifest-mr project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 788,
+    "id" : "https://FranceArchives.github.io/test-manifest-mr/images/caravelle/canvas/",
+    "label" : {
+      "none" : [ "caravelle" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://FranceArchives.github.io/test-manifest-mr/images/caravelle/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://FranceArchives.github.io/test-manifest-mr/images/caravelle/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 25,
+              "height" : 17
+            }, {
+              "width" : 50,
+              "height" : 33
+            }, {
+              "width" : 99,
+              "height" : 66
+            }, {
+              "width" : 197,
+              "height" : 131
+            }, {
+              "width" : 394,
+              "height" : 261
+            }, {
+              "width" : 788,
+              "height" : 522
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 788,
+            "@id" : "https://FranceArchives.github.io/test-manifest-mr/images/caravelle",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 522
+          } ],
+          "format" : "image/jpeg",
+          "width" : 788,
+          "id" : "https://FranceArchives.github.io/test-manifest-mr/images/caravelle/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 522
+        },
+        "target" : "https://FranceArchives.github.io/test-manifest-mr/images/caravelle/canvas/"
+      } ]
+    } ],
+    "height" : 522
+  } ]
+}
