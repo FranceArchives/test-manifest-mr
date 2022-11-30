@@ -2,14 +2,14 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://FranceArchives.github.io/test-manifest-mr/manifests/manifest.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
+  "label" : "[Test de manifeste]",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "[Click to edit description]",
+    "@value" : "[Cahier de doléances]",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
+  "attribution" : "[Persée]",
   "sequences" : [ {
     "@id" : "http://c8d0e908-fa0f-4918-9fb7-086ae38218a7",
     "@type" : "sc:Sequence",
