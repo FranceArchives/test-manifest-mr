@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://FranceArchives.github.io/test-manifest-mr/manifests/manifest.json",
-    "label" : "[Click to edit label]"
-  } ]
+  "items" : [ ]
 }
