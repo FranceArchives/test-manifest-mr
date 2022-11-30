@@ -1,0 +1,221 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://FranceArchives.github.io/test-manifest-mr/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://c8d0e908-fa0f-4918-9fb7-086ae38218a7",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "https://archives-parlementaires.persee.fr/iiif/266bab47-134e-4610-aef7-07c21bfb332c/canvas/default",
+      "@type" : "sc:Canvas",
+      "label" : "Page 12",
+      "thumbnail" : "https://archives-parlementaires.persee.fr/iiif/192f2916-5313-41e2-a7f9-920baa4d2ebc/res/thumbnail",
+      "images" : [ {
+        "@id" : "https://archives-parlementaires.persee.fr/iiif/90741771-8186-4f4b-8856-f51a26f2c3bb/annotation/image",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives-parlementaires.persee.fr/iiif/90741771-8186-4f4b-8856-f51a26f2c3bb/full/full/0/default.png",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives-parlementaires.persee.fr/iiif/90741771-8186-4f4b-8856-f51a26f2c3bb",
+            "profile" : "http://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/png",
+          "width" : 1338,
+          "height" : 2031
+        },
+        "on" : "https://archives-parlementaires.persee.fr/iiif/266bab47-134e-4610-aef7-07c21bfb332c/canvas/default"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://archives-parlementaires.persee.fr/iiif/266bab47-134e-4610-aef7-07c21bfb332c/list/word",
+        "@type" : "sc:AnnotationList",
+        "label" : "Words of Canvas 266bab47-134e-4610-aef7-07c21bfb332c"
+      } ],
+      "width" : 1338,
+      "height" : 2031,
+      "rendering" : {
+        "@id" : "https://archives-parlementaires.persee.fr/iiif/3c94e6d0-5e7a-4fa8-8320-6a8b666979b5/res/text",
+        "label" : "Download full text.",
+        "format" : "text/plain"
+      },
+      "within" : [ {
+        "@type" : "sc:Manifest",
+        "@id" : "https://archives-parlementaires.persee.fr/iiif/79cad072-07e1-4d46-9b19-7f358628cbd1/manifest"
+      } ],
+      "related" : {
+        "@id" : "https://archives-parlementaires.persee.fr/iiif/79cad072-07e1-4d46-9b19-7f358628cbd1/manifest",
+        "label" : "Tome VI - Etats généraux ; Cahiers des sénéchaussées et bailliages",
+        "format" : ""
+      }
+    }, {
+      "@id" : "https://archives-parlementaires.persee.fr/iiif/8b73070c-61bc-4b30-83e5-97f4edb23181/canvas/default",
+      "@type" : "sc:Canvas",
+      "label" : "Page 10",
+      "thumbnail" : "https://archives-parlementaires.persee.fr/iiif/ffbfdb2f-237c-4220-8516-6faf41cdd8ad/res/thumbnail",
+      "images" : [ {
+        "@id" : "https://archives-parlementaires.persee.fr/iiif/259eb706-e349-498f-a169-4e2c1e1fd8d4/annotation/image",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archives-parlementaires.persee.fr/iiif/259eb706-e349-498f-a169-4e2c1e1fd8d4/full/full/0/default.png",
+          "@type" : "dctypes:Image",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://archives-parlementaires.persee.fr/iiif/259eb706-e349-498f-a169-4e2c1e1fd8d4",
+            "profile" : "http://iiif.io/api/image/2/level1.json"
+          },
+          "format" : "image/png",
+          "width" : 1347,
+          "height" : 2037
+        },
+        "on" : "https://archives-parlementaires.persee.fr/iiif/8b73070c-61bc-4b30-83e5-97f4edb23181/canvas/default"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://archives-parlementaires.persee.fr/iiif/8b73070c-61bc-4b30-83e5-97f4edb23181/list/word",
+        "@type" : "sc:AnnotationList",
+        "label" : "Words of Canvas 8b73070c-61bc-4b30-83e5-97f4edb23181"
+      } ],
+      "width" : 1347,
+      "height" : 2037,
+      "rendering" : {
+        "@id" : "https://archives-parlementaires.persee.fr/iiif/d300a427-78bb-4602-baba-7cea170e29ae/res/text",
+        "label" : "Download full text.",
+        "format" : "text/plain"
+      },
+      "within" : [ {
+        "@type" : "sc:Manifest",
+        "@id" : "https://archives-parlementaires.persee.fr/iiif/79cad072-07e1-4d46-9b19-7f358628cbd1/manifest"
+      } ],
+      "related" : {
+        "@id" : "https://archives-parlementaires.persee.fr/iiif/79cad072-07e1-4d46-9b19-7f358628cbd1/manifest",
+        "label" : "Tome VI - Etats généraux ; Cahiers des sénéchaussées et bailliages",
+        "format" : ""
+      }
+    }, {
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b6000786m/f529.thumbnail"
+      },
+      "label" : "Massacre des Romains d'Asie Mineure (-88) (Paris, BnF, Français 364 f.262)",
+      "width" : 3709,
+      "images" : [ {
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000786m/canvas/f529",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000786m/f529"
+          },
+          "format" : "image/jpeg",
+          "height" : 5295,
+          "width" : 3709,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000786m/f529/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "height" : 5295,
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000786m/canvas/f529",
+      "@type" : "sc:Canvas",
+      "metadata" : [ {
+        "value" : "<a href=\"https://portail.biblissima.fr/ark:/43093/ifdatab8688368b24921abf529909ca0e7e8ff9eb8e9cf\">Massacre des Romains d'Asie Mineure (-88) (Paris, BnF, Français 364 f.262)</a>",
+        "label" : "Sur le portail Biblissima"
+      }, {
+        "value" : "<a href=\"https://portail.biblissima.fr/ark:/43093/mdatac9a9516cd3403ea003f7350653ad1223593f796d\">Français 364</a>",
+        "label" : "Manuscrit"
+      }, {
+        "value" : "262",
+        "label" : "Feuillet / page"
+      }, {
+        "value" : "Bourges (Cher, France)",
+        "label" : "Lieu de fabrication"
+      }, {
+        "value" : [ "<a href=\"https://portail.biblissima.fr/ark:/43093/ldata92c9fdf111fd3982aea859876de3d17be8a75710\">Éphèse (ville ancienne)</a>" ],
+        "label" : "Lieu(x) associé(s)"
+      }, {
+        "value" : "Massacre des Romains d'Asie Mineure (-88)",
+        "label" : "Légende"
+      }, {
+        "value" : [ "<a href=\"https://portail.biblissima.fr/ark:/43093/desc444d2e493ef8e5dc93784d41affd06ba350843b1\">statue</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desc1a680f5710b2c8108303652ad75e781fe8b50317\">armure</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desc1f1fcb297edd8ebc4aeaa8d1b8ed8e6ebda63358\">tour (construction)</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desc9794c30af92df8d8b638727fe0f91f761adeeb0e\">ville</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desca4e32c510b0607e98f12bc7015c0f8ef727d9ae7\">maison</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desc53e90015655f311c76b8c6065e67943e22ad2911\">décor</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desc4a5aa35154a6d154ba9dd1bf51b0d360a46b1087\">massacre</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desc9b8b8abb85e584d8a523029adbd4f97d8e7c4659\">pavage</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desc8baa195200bfe9b945d6f92e866ddee72ddb3406\">caisson</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/descac2e6fab4301afe910d2cb70244f7a651324193c\">portail (architecture)</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/descbbbc922b7a52c375c73959d7d6a20e1d076390be\">voie</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desc21f79b86184ca96a1dd35fab1c86d51168b8c2d9\">cavalier</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desc47f80b78d6ef917fe5d3b9f544ee8ac5f8850776\">Romain</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desc92c9fdf111fd3982aea859876de3d17be8a75710\">Éphèse (ville ancienne)</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/descd76c7304b9cd3fea3d228cff2daea2919f84c851\">éperon</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/descdbf571c2dcac868496312bf36d449401e4ac0af4\">comète</a>" ],
+        "label" : "Descripteurs"
+      }, {
+        "value" : "15e siècle",
+        "label" : "Date"
+      } ],
+      "related" : {
+        "@id" : "https://portail.biblissima.fr/iiif/manifest/ark:/43093/descdbf571c2dcac868496312bf36d449401e4ac0af4",
+        "label" : "comète - Collection d'images d'enluminures et décors de manuscrits",
+        "format" : ""
+      }
+    }, {
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10515738j/f361.thumbnail"
+      },
+      "label" : "Présage des malheurs de Jérusalem (Paris, BnF, Français 406 f.178)",
+      "width" : 4063,
+      "images" : [ {
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10515738j/canvas/f361",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10515738j/f361"
+          },
+          "format" : "image/jpeg",
+          "height" : 5946,
+          "width" : 4063,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10515738j/f361/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "height" : 5946,
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10515738j/canvas/f361",
+      "@type" : "sc:Canvas",
+      "metadata" : [ {
+        "value" : "<a href=\"https://portail.biblissima.fr/ark:/43093/ifdata5527f832fdb16c4af7202464b83bb3b15871b6ab\">Présage des malheurs de Jérusalem (Paris, BnF, Français 406 f.178)</a>",
+        "label" : "Sur le portail Biblissima"
+      }, {
+        "value" : "<a href=\"https://portail.biblissima.fr/ark:/43093/mdatae5bcd1c4a733c36c0a7a2961493afbf2dec5d00d\">Français 406</a>",
+        "label" : "Manuscrit"
+      }, {
+        "value" : "178",
+        "label" : "Feuillet / page"
+      }, {
+        "value" : "Bourges (Cher, France)",
+        "label" : "Lieu de fabrication"
+      }, {
+        "value" : [ "<a href=\"https://portail.biblissima.fr/ark:/43093/ldataeef4a43e15d34ad94c1483498d13e2b287126227\">Jérusalem</a>" ],
+        "label" : "Lieu(x) associé(s)"
+      }, {
+        "value" : "Présage des malheurs de Jérusalem",
+        "label" : "Légende"
+      }, {
+        "value" : [ "<a href=\"https://portail.biblissima.fr/ark:/43093/desc2ba62e0f1cd3ae67e9c3574ba9134f8abbccd607\">Juif</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desc1f1fcb297edd8ebc4aeaa8d1b8ed8e6ebda63358\">tour (construction)</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desceef4a43e15d34ad94c1483498d13e2b287126227\">Jérusalem</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desca2ebe77cdb2b841c563368b892bd4538140070ad\">présage</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/descb8b608a6414ef54cacd99b598da84343724ed019\">remplage</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/desca2e02ef181d7704d07f1a1e0b39d94a8d2f0528f\">épée</a>", "<a href=\"https://portail.biblissima.fr/ark:/43093/descdbf571c2dcac868496312bf36d449401e4ac0af4\">comète</a>" ],
+        "label" : "Descripteurs"
+      }, {
+        "value" : "15e siècle",
+        "label" : "Date"
+      } ],
+      "related" : {
+        "@id" : "https://portail.biblissima.fr/iiif/manifest/ark:/43093/descdbf571c2dcac868496312bf36d449401e4ac0af4",
+        "label" : "comète - Collection d'images d'enluminures et décors de manuscrits",
+        "format" : ""
+      }
+    } ]
+  } ],
+  "structures" : [ ],
+  "viewingDirection" : "left-to-right"
+}
